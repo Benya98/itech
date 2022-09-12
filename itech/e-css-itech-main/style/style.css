@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.topbar {
+  position: relative;
+  top: 0em;
+  padding: 5px;
+  font-size: 85%;
+  flex: auto;
+  color: #eee;
+  background-color: #222;
+}
+
+header {
+  background-image: url(../images/background.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #444;
+  background-blend-mode: multiply;
+  height: 44em;
+}
+
+header > p {
+  margin: 0em;
+  margin-right: 1em;
+  margin-right: 1em;
+}
+
+nav {
+  margin-top: 1em;
+}
+
+.mainmenu {
+  list-style: none;
+}
+
+.menuitem {
+  padding: 1em;
+  color: white;
+  display: inline-block;
+}
+
+.menuitem > a {
+  text-decoration: none;
+}
+.menuitem > a:hover {
+  background-color: #fff6;
+}
+section {
+  margin: 0em;
+  padding: 3;
+  padding-left: 10;
+  padding-right: 10;
+}
+
+.feature {
+  height: 20em;
+  padding: 2em;
+  background-color: #efefef;
+  border-radius: 0.5em;
+  text-align: center;
+  box-shadow: #444 5px 15px;
+}
+.feature:hover {
+  background-color: rgb(180, 180, 180);
+}
+
+.feature > p {
+  text-align: justify;
+}
+
+#team {
+  background-color: #444;
+  color: white;
+}
+h1 {
+  font-size: 125%;
+  margin-bottom: 3em;
+}
+
+h2 {
+  font-size: 110%;
+}
+.member {
+  text-align: center;
+}
+.member > img {
+  border-radius: 50%;
+}
+#footer-container {
+  padding: 5em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  align-content: center;
+}
